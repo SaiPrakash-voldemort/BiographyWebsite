@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin: 0 auto;
+}
+.gojo_img,
+img {
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_section h1 {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.top_section h4 {
+  text-align: end;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+
+.mid_section {
+  border: 2px solid black;
+  margin-top: 40px;
+}
+.mid_section h1 {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.mid_section p {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.mid_section h4 {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.bottom_section h1 {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.bottom_section ul {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Tektur", cursive;
+}
+.bottom_section h4 {
+  text-align: end;
+}
+@media (min-width: 375) and (max-width: 1235px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: red;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    overflow: hidden;
+  }
+}
